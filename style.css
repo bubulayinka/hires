@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+   
+}
+body{
+    background:;
+    
+}
+.home{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    height: 100vh;
+    position: relative;
+    
+}
+.checking{
+    min-height: calc(100vh -);
+}
+.shapes{
+    padding-left: 20px;
+    
+}
+.one{
+    height: 25px;
+    width: 50px;
+    background: rgb(22, 207, 240);
+}
+.two{
+    height: 25px;
+    width: 50px;
+    background: rgb(75, 75, 247);
+}
+.three{
+    height: 0px;
+    width: 0px;
+    border-left: 50px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-top: 35px solid tomato;
+}
+.box-shape{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.home-body{
+    padding: 20px 30px;
+}
+.intro h3{
+    margin-bottom: 10px;
+}
+.intro p{
+    color: rgb(56, 56, 56);
+    font-size: 14px;
+}
+.intro{
+    margin-bottom: 50px;
+}
+.resource p{
+    color: rgb(56, 56, 56);
+    font-size: 14px;
+    margin-top: 5px;
+}
+.resouce-table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 10px auto;
+}
+.resource-table-inner{
+    background-color: rgb(247, 243, 243);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.resource-table-inner img{
+    width: 100px;
+}
+.resource-table-inner h5{
+    margin-top: 10px;
+}
+.resource-table-inner p{
+    color: rgb(56, 56, 56);
+    font-size: 12px;
+}
+.automobile{
+    margin-top: 30px;
+
+}
+.automobile h4{
+    margin-bottom: 20px;
+}
+.autocar img{
+    width: 100%;
+  
+}
+.autocar{
+    margin-bottom: 20px;
+}
+.auto{
+    border: 1px solid rgb(238, 238, 238);
+    margin-top: -5px;
+    box-shadow: 0px 3px rgba(242, 242, 242,0.3);
+    padding: 10px 10px;
+}
+.auto-head{
+    display: flex;
+    justify-content: ;
+}
+.auto-hed-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.auto-hed-img img{
+    width: 30px;
+}
+.brand{
+    color: rgb(89, 199, 89);
+    margin-right: 15px;
+    font-size: 12px;
+}
+.mile{
+    color: rgba(93, 93, 189, 0.83);
+    margin-right: 10px;
+    font-size: 12px;
+}
+.year{
+    color: crimson;
+    font-size: 12px;
+}
+.auto p{
+    font-size: 14px;
+    color: rgb(56, 56, 56);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.auto h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+
+footer{
+   font-size: 12px;
+   margin: auto;
+   width: 100%;
+   max-width: 500px;
+   padding: 20px 20px;
+   box-shadow: 0px -3px rgba(163, 161, 161, 0.3);
+   position: fixed;
+    bottom: 0;
+    background-color: white;
+    
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer li{
+    list-style-type: none;
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(87, 86, 86);
+    
+    padding: 10px 0px;
+    
+}
+footer i{
+    font-size: 20px;
+    
+}
+input[type=radio]{
+    display: none;
+}
+
+#home:checked~ #home-active {
+    color: tomato;
+}
+#car:checked~ #car-active {
+    color: tomato;
+}
+#signal:checked~ #signal-active {
+    color: tomato;
+}
+#handshake:checked~ #handshake-active {
+    color: tomato;
+}
+#tags:checked~ #tags-active {
+    color: tomato;
+}
+.gen{
+    padding-bottom: 100px;
+}
+
+.second-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    color: rgb(56, 56, 56);
+}
+.second-header i{
+    font-size: 25px;
+   
+}
+.slide2{
+   display: flex;
+   flex-direction: column;
+   
+   padding: 0 30px;
+   margin-top: 20px;
+   
+}
+.slide2 h4{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-box{
+    border: 1px solid rgb(238, 238, 238);
+    box-shadow: 0px 3px rgba(242, 242, 242,0.3);
+    margin-top: 20px;
+    display: flex;
+    padding: 10px 20px;
+    
+    align-items: center;
+}
+.slide-box p{
+    font-size: 12px;
+}
+.slide-box img{
+    margin-right: 20px;
+}
+.slide-box h5{
+    margin-bottom: 5px;
+    color: rgb(56, 56, 56);
+}
+.slide-boxes{
+    padding-bottom: 120px;
+}
+.logistic-cars{
+    display: flex;
+    margin-top: 20px;
+    box-shadow: 0px 5px rgba(242, 242, 242,0.3);
+}
+.logistics-cars-side{
+    border: 1px solid rgba(242, 242, 242,0.3);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.logistics-cars-side h5{
+    margin-bottom: 5px;
+}
+.logistics-cars-side p{
+    color: rgb(56, 56, 56);
+    font-size: 12px;
+}
+.hires{
+    margin-top: 20px;
+    padding: 30px;
+}
+.hires h5{
+    margin-bottom: 20px;
+}
+.hires-img img{
+    width: 100%;
+}
+.hires-button{
+    width: 100%;
+    border: 1px solid rgb(238, 238, 238);
+    box-shadow: 0px 3px rgba(242, 242, 242,0.3);
+    margin-top: -4px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.hires-button h5{
+    padding-bottom: 10px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.hire-sub{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: rgba(93, 93, 189, 0.83);
+}
+.outsoucing-par{
+    padding:10px 30px;
+}
+.outsoucing-par p{
+    color: rgb(56, 56, 56);
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.outsourcing-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 30px;
+    width: 100%;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.outsourcing-box{
+    border: 1px solid rgb(238, 238, 238);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.general-contractor{
+    padding: 0px 30px;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.general-contractor h5{
+    margin-bottom: 10px;
+}
+.general-contractor p{
+    color: rgb(56, 56, 56);
+    font-size: 12px;
+}
+.contract-form{
+    padding: 0px 30px;
+    width: 100%;
+}
+.contract-form input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 10px;
+    color: rgb(56, 56, 56);
+}
+.contract-form label{
+    opacity: 0.6;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    border: none;
+    background: darkblue;
+    color: rgb(237, 236, 236);
+}
+.contract-form{
+    position: relative;
+}
+.angle-box i{
+    position: absolute;
+    bottom: 85px;
+    left: 310px;
+    opacity: 0.6;
+}
